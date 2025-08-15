@@ -1,0 +1,22 @@
+[
+    {
+        "icon":"bxl-facebook",
+        "link":"www.facebook.com",
+        "title":"Facebook"
+    },
+    {
+        "icon":"bxl-twitter",
+        "link":"www.twitter.com",
+        "title":"Twittter"
+    },
+    {
+        "icon":"bxl-instagram",
+        "link":"www.instagram.com",
+        "title":"Instagram"
+    },
+    {
+        "icon":"bxl-linkedin",
+        "link":"www.linkedin.com",
+        "title":"Linkedin"
+    }
+]

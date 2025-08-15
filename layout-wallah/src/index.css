@@ -1,0 +1,29 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+    themes: light;
+    /* themes: light --defaultdark --prefersdark; */
+}
+
+
+@theme {
+        /* Main buttons, headers,highlights */
+        /* --color-primary: #8B4513; */
+        --color-primary:  #1B998B;
+        /* --color-primary-light: #73C2BE; */
+        --color-primary-light: #2CA58D;
+        --color-primary-dark: #2CA58D;
+        /* Subheadings,accents,icons */
+    
+        /* Call-to-action buttons,links */
+        --color-accent: #005f69;
+  
+        --color-background: #ffffff;
+        --color-background2: #DAFFEF;
+    
+        /* Text,headings */
+        --color-txt: #353535;
+        /* Borders,secondary text */
+        --color-txt2: #6d6d6d;
+}
+
+       

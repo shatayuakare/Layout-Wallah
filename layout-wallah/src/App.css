@@ -1,0 +1,33 @@
+@import 'remixicon/fonts/remixicon.css';
+
+
+*{
+  transition: 0.5s ease-in;
+}
+
+section{
+  min-height: 100vh;
+} 
+
+.mobile.menu li {
+  border-bottom: .0004rem solid var(--color-primary);
+}
+.mobile.menu li.active {
+  background-color: var(--color-primary);
+  border: 5rem;
+  color: var(--color-background);
+}
+
+.navbar-center .menu li{
+  border-bottom: .18rem solid;
+  padding: 0 .1rem;
+  border-color:transparent; 
+  border-radius: 45%;
+}
+.active {
+  position: relative;
+color: var(--color-primary);
+  border-color: var(--color-primary)  !important;
+
+}
+
