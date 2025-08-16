@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Logo from "../../components/Logo";
 import PropertyFilter from "../../components/PropertyFilter";
 import axios from "axios";
-import { server } from "../../constants/Constants";
+import { server } from "../../utils/Constants";
 
 const fetchProperties = async () => {
   axios

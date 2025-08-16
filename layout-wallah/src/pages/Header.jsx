@@ -1,7 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import { useAuth } from "../context/AuthProvider";
 import axios from "axios";
-import { server } from "../constants/Constants";
+import { server } from "../utils/Constants";
 import Logo from "../components/Logo";
 
 const Header = () => {

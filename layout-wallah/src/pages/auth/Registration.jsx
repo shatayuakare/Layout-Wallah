@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import Carousel from "../../components/Carousel";
 import axios from "axios";
 import AuthSocialIcon from "../../components/AuthSocialIcon";
-import { server } from "../../constants/Constants";
+import { server } from "../../utils/Constants";
 
 const Registration = () => {
   const [registerData, setRegisterData] = useState({

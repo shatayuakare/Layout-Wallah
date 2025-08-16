@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import PageHeading from "../components/PageHeading";
 import axios from "axios";
-import { server } from "../constants/Constants";
+import { server } from "../utils/Constants";
 
 const details = [
   {
