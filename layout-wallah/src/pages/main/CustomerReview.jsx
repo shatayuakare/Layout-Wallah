@@ -1,14 +1,12 @@
 import React, { useRef } from "react";
 
+// Swiper js 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
+
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
-
-// import "./styles.css";
-
-// import required modules
 
 const review = [
   {

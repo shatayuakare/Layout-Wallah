@@ -5,7 +5,7 @@ const FAQ = () => {
   return (
     <section className="content-center" id="faq">
       <ContentHeading title={"FAQ"} description={"Ask your own question"} />
-      <div className="mx-auto md:w-3/5 mt-4">
+      <div className="mx-2 md:mx-auto md:w-3/5 mt-4">
         {faqs.map((elem, index) => (
           <div
             className="collapse collapse-plus border rounded-lg mb-2 border-primary bg-background2"

@@ -39,7 +39,7 @@ const BuyProcess = () => {
             >
               <img
                 className="w-[75%] md:h-30 md:w-34 mx-auto"
-                src={`./src/assets/graphics/${elem.img}`}
+                src={`./graphics/${elem.img}`}
                 alt="Plot search step"
               />
               <div className="text-xl ps-8 font-semibold leading-4">

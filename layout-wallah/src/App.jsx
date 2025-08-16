@@ -17,14 +17,14 @@ const App = () => {
   return (
       <BrowserRouter> 
       <Header />  
-      <Routes>
-        <Route path="/" element={<Main/>} />
-        <Route path="/login" element={(authUser === undefined)  ? <Login/> :<Navigate to={"/"}/>  } />
-        <Route path="/register"element= {(authUser === undefined) ?<Registration/>:<Navigate to={"/"} />}/>
-        <Route path="/contact"element={<Contact/>}/>
-        <Route path="/properties"element={<Properties />}/>
-        <Route path="/property"element={<PropertyHome/>}/>
-      </Routes>
+        <Routes>
+          <Route path="/" element={<Main/>} />
+          <Route path="/login" element={(authUser === undefined)  ? <Login/> :<Navigate to={"/"}/>  } />
+          <Route path="/register"element= {(authUser === undefined) ?<Registration/>:<Navigate to={"/"} />}/>
+          <Route path="/contact"element={<Contact/>}/>
+          <Route path="/properties"element={<Properties />}/>
+          <Route path="/property"element={<PropertyHome/>}/>
+        </Routes>
       <Footer />
       </BrowserRouter>
   );

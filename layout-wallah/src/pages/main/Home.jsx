@@ -11,7 +11,7 @@ const Home = () => {
 
   return (
     <section className="min-h-screen">
-      <div className="h-[85vh] md:min-h-[75vh] flex items-center bg-[url('./src/assets/background.png')] bg-cover justify-center flex-col pb-14 md:pb-auto">
+      <div className="h-[85vh] md:min-h-[75vh] flex items-center bg-[url('./background.png')] bg-cover justify-center flex-col pb-14 md:pb-auto">
         <div className="btn uppercase btn-ghost rounded-full px-6 md:px-10 tracking-wide btn-xs md:btn-sm  bg-none border border-primary text-primary">
           Let us guide your Plot
         </div>

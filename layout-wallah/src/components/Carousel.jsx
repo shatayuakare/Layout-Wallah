@@ -60,7 +60,7 @@ const Carousel = () => {
             }}
           >
             <img
-              src={"./src/assets/svg/" + img}
+              src={"./svg/" + img}
               className="block w-full h-full object-contain rounded-lg"
               alt={`Slide ${idx + 1}`}
               draggable={false}
